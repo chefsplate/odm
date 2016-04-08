@@ -1,7 +1,7 @@
 <?php
 
 use Doctrine\Common\Cache\VoidCache;
-use LaravelDoctrine\ORM\Configuration\Cache\VoidCacheProvider;
+use LaravelDoctrine\ODM\Configuration\Cache\VoidCacheProvider;
 
 class VoidCacheProviderTest extends AbstractCacheProviderTest
 {

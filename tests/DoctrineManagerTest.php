@@ -6,11 +6,11 @@ use Doctrine\DBAL\Connection;
 use Doctrine\ORM\Configuration;
 use Doctrine\ORM\EntityManagerInterface;
 use Illuminate\Contracts\Container\Container;
-use LaravelDoctrine\ORM\BootChain;
-use LaravelDoctrine\ORM\DoctrineExtender;
-use LaravelDoctrine\ORM\DoctrineManager;
-use LaravelDoctrine\ORM\EntityManagerFactory;
-use LaravelDoctrine\ORM\Extensions\MappingDriverChain;
+use LaravelDoctrine\ODM\BootChain;
+use LaravelDoctrine\ODM\DoctrineExtender;
+use LaravelDoctrine\ODM\DoctrineManager;
+use LaravelDoctrine\ODM\EntityManagerFactory;
+use LaravelDoctrine\ODM\Extensions\MappingDriverChain;
 use Mockery as m;
 
 class DoctrineManagerTest extends PHPUnit_Framework_TestCase

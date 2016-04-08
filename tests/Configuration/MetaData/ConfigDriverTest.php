@@ -1,6 +1,6 @@
 <?php
 
-use LaravelDoctrine\ORM\Configuration\MetaData\Config\ConfigDriver;
+use LaravelDoctrine\ODM\Configuration\MetaData\Config\ConfigDriver;
 
 class ConfigDriverTest extends PHPUnit_Framework_TestCase
 {

@@ -1,7 +1,7 @@
 <?php
 
 use Doctrine\DBAL\DBALException;
-use LaravelDoctrine\ORM\Configuration\CustomTypeManager;
+use LaravelDoctrine\ODM\Configuration\CustomTypeManager;
 
 class CustomTypeManagerTest extends PHPUnit_Framework_TestCase
 {

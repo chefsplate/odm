@@ -4,8 +4,8 @@ use Carbon\Carbon;
 use Doctrine\ORM\EntityManagerInterface;
 use Doctrine\ORM\QueryBuilder;
 use Illuminate\Contracts\Auth\CanResetPassword;
-use LaravelDoctrine\ORM\Auth\Passwords\DoctrineTokenRepository;
-use LaravelDoctrine\ORM\Auth\Passwords\PasswordReminder;
+use LaravelDoctrine\ODM\Auth\Passwords\DoctrineTokenRepository;
+use LaravelDoctrine\ODM\Auth\Passwords\PasswordReminder;
 use Mockery as m;
 use Mockery\Mock;
 

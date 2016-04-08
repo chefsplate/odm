@@ -2,7 +2,7 @@
 
 use Doctrine\Common\Persistence\Mapping\Driver\MappingDriver;
 use Doctrine\Common\Persistence\Mapping\Driver\PHPDriver;
-use LaravelDoctrine\ORM\Configuration\MetaData\Php;
+use LaravelDoctrine\ODM\Configuration\MetaData\Php;
 use Mockery as m;
 
 class PhpTest extends PHPUnit_Framework_TestCase

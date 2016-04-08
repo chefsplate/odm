@@ -1,6 +1,6 @@
 <?php
 
-use LaravelDoctrine\ORM\Loggers\File\DoctrineFileLogger;
+use LaravelDoctrine\ODM\Loggers\File\DoctrineFileLogger;
 use Mockery as m;
 use Mockery\Mock;
 use Psr\Log\LoggerInterface as Log;

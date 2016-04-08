@@ -2,7 +2,7 @@
 
 use Clockwork\Request\Request;
 use Doctrine\DBAL\Logging\DebugStack;
-use LaravelDoctrine\ORM\Loggers\Clockwork\DoctrineDataSource;
+use LaravelDoctrine\ODM\Loggers\Clockwork\DoctrineDataSource;
 
 class DoctrineDataSourceTest extends PHPUnit_Framework_TestCase
 {

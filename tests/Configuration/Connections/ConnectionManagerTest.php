@@ -2,10 +2,10 @@
 
 use Illuminate\Contracts\Config\Repository;
 use Illuminate\Contracts\Container\Container;
-use LaravelDoctrine\ORM\Configuration\Connections\ConnectionManager;
-use LaravelDoctrine\ORM\Configuration\Connections\MysqlConnection;
-use LaravelDoctrine\ORM\Configuration\Connections\SqliteConnection;
-use LaravelDoctrine\ORM\Exceptions\DriverNotFound;
+use LaravelDoctrine\ODM\Configuration\Connections\ConnectionManager;
+use LaravelDoctrine\ODM\Configuration\Connections\MysqlConnection;
+use LaravelDoctrine\ODM\Configuration\Connections\SqliteConnection;
+use LaravelDoctrine\ODM\Exceptions\DriverNotFound;
 use Mockery as m;
 
 class ConnectionManagerTest extends PHPUnit_Framework_TestCase

@@ -1,6 +1,6 @@
 <?php
 
-use LaravelDoctrine\ORM\Console\Exporters\FluentExporter;
+use LaravelDoctrine\ODM\Console\Exporters\FluentExporter;
 
 class FluentExporterTest extends PHPUnit_Framework_TestCase
 {

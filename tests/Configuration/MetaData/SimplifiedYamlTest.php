@@ -2,7 +2,7 @@
 
 use Doctrine\Common\Persistence\Mapping\Driver\MappingDriver;
 use Doctrine\ORM\Mapping\Driver\SimplifiedYamlDriver;
-use LaravelDoctrine\ORM\Configuration\MetaData\SimplifiedYaml;
+use LaravelDoctrine\ODM\Configuration\MetaData\SimplifiedYaml;
 use Mockery as m;
 
 class SimplifiedYamlTest extends PHPUnit_Framework_TestCase

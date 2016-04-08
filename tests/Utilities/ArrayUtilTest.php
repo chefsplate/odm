@@ -1,6 +1,6 @@
 <?php
 
-use LaravelDoctrine\ORM\Utilities\ArrayUtil;
+use LaravelDoctrine\ODM\Utilities\ArrayUtil;
 
 class ArrayUtilTest extends PHPUnit_Framework_TestCase
 {

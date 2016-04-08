@@ -1,7 +1,7 @@
 <?php
 
 use Doctrine\Common\Cache\ArrayCache;
-use LaravelDoctrine\ORM\Configuration\Cache\ArrayCacheProvider;
+use LaravelDoctrine\ODM\Configuration\Cache\ArrayCacheProvider;
 
 class ArrayCacheProviderTest extends AbstractCacheProviderTest
 {

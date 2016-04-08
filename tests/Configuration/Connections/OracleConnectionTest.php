@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Contracts\Config\Repository;
-use LaravelDoctrine\ORM\Configuration\Connections\OracleConnection;
+use LaravelDoctrine\ODM\Configuration\Connections\OracleConnection;
 use Mockery as m;
 use Mockery\Mock;
 

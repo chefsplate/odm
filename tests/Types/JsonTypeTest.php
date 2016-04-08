@@ -2,7 +2,7 @@
 
 use Doctrine\DBAL\Platforms\AbstractPlatform;
 use Doctrine\DBAL\Types\Type;
-use LaravelDoctrine\ORM\Types\Json;
+use LaravelDoctrine\ODM\Types\Json;
 use Mockery as m;
 use Mockery\Mock;
 

@@ -4,8 +4,8 @@ use Doctrine\ORM\Configuration;
 use Doctrine\ORM\EntityManagerInterface;
 use Doctrine\ORM\ORMException;
 use Illuminate\Contracts\Container\Container;
-use LaravelDoctrine\ORM\EntityManagerFactory;
-use LaravelDoctrine\ORM\IlluminateRegistry;
+use LaravelDoctrine\ODM\EntityManagerFactory;
+use LaravelDoctrine\ODM\IlluminateRegistry;
 use Mockery as m;
 use Mockery\Mock;
 

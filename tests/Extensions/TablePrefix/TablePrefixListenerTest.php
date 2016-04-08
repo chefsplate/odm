@@ -2,7 +2,7 @@
 
 use Doctrine\ORM\Event\LoadClassMetadataEventArgs;
 use Doctrine\ORM\Mapping\ClassMetadataInfo;
-use LaravelDoctrine\ORM\Extensions\TablePrefix\TablePrefixListener;
+use LaravelDoctrine\ODM\Extensions\TablePrefix\TablePrefixListener;
 use Mockery as m;
 
 class TablePrefixListenerTest extends PHPUnit_Framework_TestCase

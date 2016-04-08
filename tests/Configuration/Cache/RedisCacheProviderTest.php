@@ -2,8 +2,8 @@
 
 use Illuminate\Contracts\Cache\Factory;
 use Illuminate\Contracts\Cache\Repository;
-use LaravelDoctrine\ORM\Configuration\Cache\IlluminateCacheAdapter;
-use LaravelDoctrine\ORM\Configuration\Cache\RedisCacheProvider;
+use LaravelDoctrine\ODM\Configuration\Cache\IlluminateCacheAdapter;
+use LaravelDoctrine\ODM\Configuration\Cache\RedisCacheProvider;
 use Mockery as m;
 
 class RedisCacheProviderTest extends AbstractCacheProviderTest

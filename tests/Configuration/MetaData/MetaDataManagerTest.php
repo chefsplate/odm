@@ -1,10 +1,10 @@
 <?php
 
 use Illuminate\Contracts\Container\Container;
-use LaravelDoctrine\ORM\Configuration\MetaData\Annotations;
-use LaravelDoctrine\ORM\Configuration\MetaData\MetaDataManager;
-use LaravelDoctrine\ORM\Configuration\MetaData\Yaml;
-use LaravelDoctrine\ORM\Exceptions\DriverNotFound;
+use LaravelDoctrine\ODM\Configuration\MetaData\Annotations;
+use LaravelDoctrine\ODM\Configuration\MetaData\MetaDataManager;
+use LaravelDoctrine\ODM\Configuration\MetaData\Yaml;
+use LaravelDoctrine\ODM\Exceptions\DriverNotFound;
 use Mockery as m;
 
 class MetaDataManagerTest extends PHPUnit_Framework_TestCase
