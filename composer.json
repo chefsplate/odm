@@ -13,6 +13,10 @@
     {
       "name": "Patrick Brouwers",
       "email": "patrick@maatwebsite.nl"
+    },
+    {
+      "name": "David Chang",
+      "email": "davidchchang@gmail.com"
     }
   ],
   "require": {
@@ -37,7 +41,7 @@
   },
   "autoload": {
     "psr-4": {
-      "LaravelDoctrine\\ORM\\": "src/"
+      "LaravelDoctrine\\ODM\\": "src/"
     },
     "files": [
       "src/helpers.php"
