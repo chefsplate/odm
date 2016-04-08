@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Console\ConfigMigrations;
+namespace LaravelDoctrine\ODM\Console\ConfigMigrations;
 
 use Illuminate\Contracts\View\Factory;
-use LaravelDoctrine\ORM\Utilities\ArrayUtil;
+use LaravelDoctrine\ODM\Utilities\ArrayUtil;
 
 class MitchellMigrator implements ConfigurationMigrator
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Exceptions;
+namespace LaravelDoctrine\ODM\Exceptions;
 
 use InvalidArgumentException;
 

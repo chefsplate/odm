@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Validation;
+namespace LaravelDoctrine\ODM\Validation;
 
 use Illuminate\Validation\ValidationServiceProvider;
 

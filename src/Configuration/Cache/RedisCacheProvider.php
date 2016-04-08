@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Configuration\Cache;
+namespace LaravelDoctrine\ODM\Configuration\Cache;
 
 class RedisCacheProvider extends IlluminateCacheProvider
 {

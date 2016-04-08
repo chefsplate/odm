@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Serializers;
+namespace LaravelDoctrine\ODM\Serializers;
 
 trait Arrayable
 {

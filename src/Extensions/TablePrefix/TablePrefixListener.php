@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Extensions\TablePrefix;
+namespace LaravelDoctrine\ODM\Extensions\TablePrefix;
 
 use Doctrine\Common\EventSubscriber;
 use Doctrine\ORM\Event\LoadClassMetadataEventArgs;

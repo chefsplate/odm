@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Configuration\Cache;
+namespace LaravelDoctrine\ODM\Configuration\Cache;
 
-use LaravelDoctrine\ORM\Configuration\Manager;
+use LaravelDoctrine\ODM\Configuration\Manager;
 
 class CacheManager extends Manager
 {

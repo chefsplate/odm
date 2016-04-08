@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Configuration\MetaData;
+namespace LaravelDoctrine\ODM\Configuration\MetaData;
 
 use Illuminate\Contracts\Config\Repository;
-use LaravelDoctrine\ORM\Configuration\MetaData\Config\ConfigDriver;
+use LaravelDoctrine\ODM\Configuration\MetaData\Config\ConfigDriver;
 
 class Config extends MetaData
 {

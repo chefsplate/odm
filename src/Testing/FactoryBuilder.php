@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Testing;
+namespace LaravelDoctrine\ODM\Testing;
 
 use Doctrine\Common\Persistence\ManagerRegistry;
 use Faker\Generator as Faker;

@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Configuration;
+namespace LaravelDoctrine\ODM\Configuration;
 
 use Doctrine\ORM\Mapping\NamingStrategy;
 use Illuminate\Support\Str;

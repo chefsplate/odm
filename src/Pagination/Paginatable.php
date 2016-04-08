@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Pagination;
+namespace LaravelDoctrine\ODM\Pagination;
 
 use Doctrine\ORM\Query;
 

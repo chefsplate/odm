@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Configuration\MetaData\Config;
+namespace LaravelDoctrine\ODM\Configuration\MetaData\Config;
 
 use Doctrine\Common\Persistence\Mapping\Driver\MappingDriver;
 use Doctrine\ORM\Mapping\Driver\YamlDriver;

@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Loggers\Debugbar;
+namespace LaravelDoctrine\ODM\Loggers\Debugbar;
 
 use DebugBar\Bridge\DoctrineCollector as DebugbarDoctrineCollector;
 use Doctrine\DBAL\Logging\DebugStack;

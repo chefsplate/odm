@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Configuration\MetaData;
+namespace LaravelDoctrine\ODM\Configuration\MetaData;
 
-use LaravelDoctrine\ORM\Configuration\Manager;
+use LaravelDoctrine\ODM\Configuration\Manager;
 
 class MetaDataManager extends Manager
 {

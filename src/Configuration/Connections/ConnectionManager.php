@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Configuration\Connections;
+namespace LaravelDoctrine\ODM\Configuration\Connections;
 
-use LaravelDoctrine\ORM\Configuration\Manager;
+use LaravelDoctrine\ODM\Configuration\Manager;
 
 class ConnectionManager extends Manager
 {

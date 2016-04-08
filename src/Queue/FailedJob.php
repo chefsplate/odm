@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Queue;
+namespace LaravelDoctrine\ODM\Queue;
 
 use Doctrine\ORM\Mapping as ORM;
 

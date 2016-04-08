@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM;
+namespace LaravelDoctrine\ODM;
 
 use Doctrine\Common\Persistence\ManagerRegistry;
 use Doctrine\ORM\EntityManager;
@@ -11,29 +11,29 @@ use Faker\Generator as FakerGenerator;
 use Illuminate\Contracts\Container\Container;
 use Illuminate\Support\ServiceProvider;
 use InvalidArgumentException;
-use LaravelDoctrine\ORM\Auth\DoctrineUserProvider;
-use LaravelDoctrine\ORM\Configuration\Cache\CacheManager;
-use LaravelDoctrine\ORM\Configuration\Connections\ConnectionManager;
-use LaravelDoctrine\ORM\Configuration\CustomTypeManager;
-use LaravelDoctrine\ORM\Configuration\MetaData\MetaDataManager;
-use LaravelDoctrine\ORM\Console\ClearMetadataCacheCommand;
-use LaravelDoctrine\ORM\Console\ClearQueryCacheCommand;
-use LaravelDoctrine\ORM\Console\ClearResultCacheCommand;
-use LaravelDoctrine\ORM\Console\ConvertConfigCommand;
-use LaravelDoctrine\ORM\Console\ConvertMappingCommand;
-use LaravelDoctrine\ORM\Console\EnsureProductionSettingsCommand;
-use LaravelDoctrine\ORM\Console\GenerateEntitiesCommand;
-use LaravelDoctrine\ORM\Console\GenerateProxiesCommand;
-use LaravelDoctrine\ORM\Console\InfoCommand;
-use LaravelDoctrine\ORM\Console\MappingImportCommand;
-use LaravelDoctrine\ORM\Console\SchemaCreateCommand;
-use LaravelDoctrine\ORM\Console\SchemaDropCommand;
-use LaravelDoctrine\ORM\Console\SchemaUpdateCommand;
-use LaravelDoctrine\ORM\Console\SchemaValidateCommand;
-use LaravelDoctrine\ORM\Exceptions\ExtensionNotFound;
-use LaravelDoctrine\ORM\Extensions\ExtensionManager;
-use LaravelDoctrine\ORM\Testing\Factory as EntityFactory;
-use LaravelDoctrine\ORM\Validation\PresenceVerifierProvider;
+use LaravelDoctrine\ODM\Auth\DoctrineUserProvider;
+use LaravelDoctrine\ODM\Configuration\Cache\CacheManager;
+use LaravelDoctrine\ODM\Configuration\Connections\ConnectionManager;
+use LaravelDoctrine\ODM\Configuration\CustomTypeManager;
+use LaravelDoctrine\ODM\Configuration\MetaData\MetaDataManager;
+use LaravelDoctrine\ODM\Console\ClearMetadataCacheCommand;
+use LaravelDoctrine\ODM\Console\ClearQueryCacheCommand;
+use LaravelDoctrine\ODM\Console\ClearResultCacheCommand;
+use LaravelDoctrine\ODM\Console\ConvertConfigCommand;
+use LaravelDoctrine\ODM\Console\ConvertMappingCommand;
+use LaravelDoctrine\ODM\Console\EnsureProductionSettingsCommand;
+use LaravelDoctrine\ODM\Console\GenerateEntitiesCommand;
+use LaravelDoctrine\ODM\Console\GenerateProxiesCommand;
+use LaravelDoctrine\ODM\Console\InfoCommand;
+use LaravelDoctrine\ODM\Console\MappingImportCommand;
+use LaravelDoctrine\ODM\Console\SchemaCreateCommand;
+use LaravelDoctrine\ODM\Console\SchemaDropCommand;
+use LaravelDoctrine\ODM\Console\SchemaUpdateCommand;
+use LaravelDoctrine\ODM\Console\SchemaValidateCommand;
+use LaravelDoctrine\ODM\Exceptions\ExtensionNotFound;
+use LaravelDoctrine\ODM\Extensions\ExtensionManager;
+use LaravelDoctrine\ODM\Testing\Factory as EntityFactory;
+use LaravelDoctrine\ODM\Validation\PresenceVerifierProvider;
 
 class DoctrineServiceProvider extends ServiceProvider
 {

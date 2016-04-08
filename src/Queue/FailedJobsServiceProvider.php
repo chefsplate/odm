@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Queue;
+namespace LaravelDoctrine\ODM\Queue;
 
 use Illuminate\Support\ServiceProvider;
-use LaravelDoctrine\ORM\DoctrineManager;
+use LaravelDoctrine\ODM\DoctrineManager;
 
 class FailedJobsServiceProvider extends ServiceProvider
 {

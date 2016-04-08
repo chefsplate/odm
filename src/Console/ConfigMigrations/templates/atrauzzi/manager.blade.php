@@ -15,9 +15,9 @@
         @endif
     @if($proxySettings != null)
     'proxies' => [
-        'namespace' => {{{ \LaravelDoctrine\ORM\Utilities\ArrayUtil::get($proxySettings['namespace'],'false') }}},
-        'path'          => {{{ \LaravelDoctrine\ORM\Utilities\ArrayUtil::get($data['directory'], 'storage_path(\'proxies\')') }}},
-        'auto_generate' => {{{ \LaravelDoctrine\ORM\Utilities\ArrayUtil::get($data['auto_generate'], 'env(\'DOCTRINE_PROXY_AUTOGENERATE\', \'false\')') }}}
+        'namespace' => {{{ \LaravelDoctrine\ODM\Utilities\ArrayUtil::get($proxySettings['namespace'],'false') }}},
+        'path'          => {{{ \LaravelDoctrine\ODM\Utilities\ArrayUtil::get($data['directory'], 'storage_path(\'proxies\')') }}},
+        'auto_generate' => {{{ \LaravelDoctrine\ODM\Utilities\ArrayUtil::get($data['auto_generate'], 'env(\'DOCTRINE_PROXY_AUTOGENERATE\', \'false\')') }}}
     ],
         @endif
     'events'     => [

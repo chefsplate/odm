@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Console;
+namespace LaravelDoctrine\ODM\Console;
 
 use Doctrine\Common\Cache\ApcCache;
 use Doctrine\Common\Cache\XcacheCache;

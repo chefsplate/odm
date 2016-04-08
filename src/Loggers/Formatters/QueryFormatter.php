@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Loggers\Formatters;
+namespace LaravelDoctrine\ODM\Loggers\Formatters;
 
 interface QueryFormatter
 {

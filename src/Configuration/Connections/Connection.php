@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Configuration\Connections;
+namespace LaravelDoctrine\ODM\Configuration\Connections;
 
 use Illuminate\Contracts\Config\Repository;
-use LaravelDoctrine\ORM\Configuration\Driver;
+use LaravelDoctrine\ODM\Configuration\Driver;
 
 abstract class Connection implements Driver
 {

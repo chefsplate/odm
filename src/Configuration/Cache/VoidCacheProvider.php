@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Configuration\Cache;
+namespace LaravelDoctrine\ODM\Configuration\Cache;
 
 use Doctrine\Common\Cache\VoidCache;
-use LaravelDoctrine\ORM\Configuration\Driver;
+use LaravelDoctrine\ODM\Configuration\Driver;
 
 class VoidCacheProvider implements Driver
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Loggers;
+namespace LaravelDoctrine\ODM\Loggers;
 
 use Doctrine\ORM\Configuration;
 use Doctrine\ORM\EntityManagerInterface;

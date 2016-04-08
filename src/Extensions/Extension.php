@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Extensions;
+namespace LaravelDoctrine\ODM\Extensions;
 
 use Doctrine\Common\Annotations\Reader;
 use Doctrine\Common\EventManager;

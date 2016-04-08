@@ -35,7 +35,7 @@ return [
         |
         */
         'extensions'                => [
-        //LaravelDoctrine\ORM\Extensions\TablePrefix\TablePrefixExtension::class,
+        //LaravelDoctrine\ODM\Extensions\TablePrefix\TablePrefixExtension::class,
         //LaravelDoctrine\Extensions\Timestamps\TimestampableExtension::class,
         //LaravelDoctrine\Extensions\SoftDeletes\SoftDeleteableExtension::class,
         //LaravelDoctrine\Extensions\Sluggable\SluggableExtension::class,
@@ -55,7 +55,7 @@ return [
                 {{$customTypes}}
         @else
         'custom_types'              => [
-                'json' => LaravelDoctrine\ORM\Types\Json::class
+                'json' => LaravelDoctrine\ODM\Types\Json::class
         ],
         @endif
         @if($dqls !== null)
@@ -68,9 +68,9 @@ return [
         | Setting it to false, will disable logging
         |
         | Available:
-        | - LaravelDoctrine\ORM\Loggers\LaravelDebugbarLogger
-        | - LaravelDoctrine\ORM\Loggers\ClockworkLogger
-        | - LaravelDoctrine\ORM\Loggers\FileLogger
+        | - LaravelDoctrine\ODM\Loggers\LaravelDebugbarLogger
+        | - LaravelDoctrine\ODM\Loggers\ClockworkLogger
+        | - LaravelDoctrine\ODM\Loggers\FileLogger
         |--------------------------------------------------------------------------
         */
         'logger'                    => env('DOCTRINE_LOGGER', false),

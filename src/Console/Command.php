@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Console;
+namespace LaravelDoctrine\ODM\Console;
 
 use Illuminate\Console\Command as IlluminateCommand;
 
