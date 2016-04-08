@@ -2,7 +2,7 @@
 
 use Doctrine\Common\Persistence\Mapping\Driver\MappingDriver;
 use Doctrine\Common\Persistence\Mapping\Driver\StaticPHPDriver;
-use LaravelDoctrine\ORM\Configuration\MetaData\StaticPhp;
+use LaravelDoctrine\ODM\Configuration\MetaData\StaticPhp;
 use Mockery as m;
 
 class StaticPhpTest extends PHPUnit_Framework_TestCase

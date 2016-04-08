@@ -1,7 +1,7 @@
 <?php
 
-use LaravelDoctrine\ORM\Loggers\Formatters\FormatQueryKeywords;
-use LaravelDoctrine\ORM\Loggers\Formatters\QueryFormatter;
+use LaravelDoctrine\ODM\Loggers\Formatters\FormatQueryKeywords;
+use LaravelDoctrine\ODM\Loggers\Formatters\QueryFormatter;
 use Mockery as m;
 use Mockery\Mock;
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Facades;
+namespace LaravelDoctrine\ODM\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use LaravelDoctrine\ORM\DoctrineManager;
+use LaravelDoctrine\ODM\DoctrineManager;
 
 class Doctrine extends Facade
 {

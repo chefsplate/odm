@@ -6,11 +6,11 @@ if (!function_exists('entity')) {
      *
      * @param  dynamic  class|class,name|class,amount|class,name,amount
      *
-     * @return \LaravelDoctrine\ORM\Testing\FactoryBuilder
+     * @return \LaravelDoctrine\ODM\Testing\FactoryBuilder
      */
     function entity()
     {
-        $factory = app('LaravelDoctrine\ORM\Testing\Factory');
+        $factory = app('LaravelDoctrine\ODM\Testing\Factory');
 
         $arguments = func_get_args();
 

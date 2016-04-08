@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Extensions;
+namespace LaravelDoctrine\ODM\Extensions;
 
 use Doctrine\Common\EventManager;
 use Doctrine\Common\Persistence\ManagerRegistry;

@@ -8,8 +8,8 @@ use Doctrine\ORM\EntityManagerInterface;
 use Doctrine\ORM\Mapping\Driver\AnnotationDriver;
 use Doctrine\ORM\Query\FilterCollection;
 use Illuminate\Contracts\Container\Container;
-use LaravelDoctrine\ORM\Extensions\Extension;
-use LaravelDoctrine\ORM\Extensions\ExtensionManager;
+use LaravelDoctrine\ODM\Extensions\Extension;
+use LaravelDoctrine\ODM\Extensions\ExtensionManager;
 use Mockery as m;
 use Mockery\Mock;
 

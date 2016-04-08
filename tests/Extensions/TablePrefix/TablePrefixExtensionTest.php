@@ -4,7 +4,7 @@ use Doctrine\Common\Annotations\Reader;
 use Doctrine\Common\EventManager;
 use Doctrine\DBAL\Connection;
 use Doctrine\ORM\EntityManagerInterface;
-use LaravelDoctrine\ORM\Extensions\TablePrefix\TablePrefixExtension;
+use LaravelDoctrine\ODM\Extensions\TablePrefix\TablePrefixExtension;
 use Mockery as m;
 
 class TablePrefixExtensionTest extends PHPUnit_Framework_TestCase

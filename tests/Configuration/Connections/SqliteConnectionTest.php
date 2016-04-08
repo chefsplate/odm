@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Contracts\Config\Repository;
-use LaravelDoctrine\ORM\Configuration\Connections\SqliteConnection;
+use LaravelDoctrine\ODM\Configuration\Connections\SqliteConnection;
 use Mockery as m;
 use Mockery\Mock;
 

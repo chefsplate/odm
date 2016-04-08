@@ -3,7 +3,7 @@
 use Barryvdh\Debugbar\LaravelDebugbar;
 use Doctrine\ORM\Configuration;
 use Doctrine\ORM\EntityManagerInterface;
-use LaravelDoctrine\ORM\Loggers\LaravelDebugbarLogger;
+use LaravelDoctrine\ODM\Loggers\LaravelDebugbarLogger;
 use Mockery as m;
 
 class LaravelDebugbarLoggerTest extends PHPUnit_Framework_TestCase

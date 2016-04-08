@@ -2,7 +2,7 @@
 
 use Doctrine\Common\Persistence\Mapping\Driver\MappingDriver;
 use Doctrine\ORM\Mapping\Driver\SimplifiedXmlDriver;
-use LaravelDoctrine\ORM\Configuration\MetaData\SimplifiedXml;
+use LaravelDoctrine\ODM\Configuration\MetaData\SimplifiedXml;
 use Mockery as m;
 
 class SimplifiedXmlTest extends PHPUnit_Framework_TestCase

@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Serializers;
+namespace LaravelDoctrine\ODM\Serializers;
 
 use Symfony\Component\Serializer\Encoder\DecoderInterface;
 use Symfony\Component\Serializer\Encoder\EncoderInterface;

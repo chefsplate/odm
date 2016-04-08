@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Configuration\MetaData;
+namespace LaravelDoctrine\ODM\Configuration\MetaData;
 
 use Doctrine\ORM\Mapping\ClassMetadataFactory;
-use LaravelDoctrine\ORM\Configuration\Driver;
+use LaravelDoctrine\ODM\Configuration\Driver;
 
 abstract class MetaData implements Driver
 {

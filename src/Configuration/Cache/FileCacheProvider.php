@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Configuration\Cache;
+namespace LaravelDoctrine\ODM\Configuration\Cache;
 
 use Doctrine\Common\Cache\FilesystemCache;
 use Illuminate\Contracts\Config\Repository;
-use LaravelDoctrine\ORM\Configuration\Driver;
+use LaravelDoctrine\ODM\Configuration\Driver;
 
 class FileCacheProvider implements Driver
 {

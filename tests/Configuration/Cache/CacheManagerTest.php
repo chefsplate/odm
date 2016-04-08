@@ -3,10 +3,10 @@
 use Doctrine\Common\Cache\ArrayCache;
 use Illuminate\Contracts\Config\Repository;
 use Illuminate\Contracts\Container\Container;
-use LaravelDoctrine\ORM\Configuration\Cache\ArrayCacheProvider;
-use LaravelDoctrine\ORM\Configuration\Cache\CacheManager;
-use LaravelDoctrine\ORM\Configuration\Cache\FileCacheProvider;
-use LaravelDoctrine\ORM\Exceptions\DriverNotFound;
+use LaravelDoctrine\ODM\Configuration\Cache\ArrayCacheProvider;
+use LaravelDoctrine\ODM\Configuration\Cache\CacheManager;
+use LaravelDoctrine\ODM\Configuration\Cache\FileCacheProvider;
+use LaravelDoctrine\ODM\Exceptions\DriverNotFound;
 use Mockery as m;
 
 class CacheManagerTest extends PHPUnit_Framework_TestCase

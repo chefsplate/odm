@@ -1,7 +1,7 @@
 <?php
 
-use LaravelDoctrine\ORM\Serializers\Arrayable;
-use LaravelDoctrine\ORM\Serializers\ArraySerializer;
+use LaravelDoctrine\ODM\Serializers\Arrayable;
+use LaravelDoctrine\ODM\Serializers\ArraySerializer;
 
 class ArraySerializerTest extends PHPUnit_Framework_TestCase
 {

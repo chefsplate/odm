@@ -7,7 +7,7 @@ class AtrauzziMigratorTest extends MigratorBase
 {
     public function test_convert_atrauzzi_config()
     {
-        $mitchellMigrator = new \LaravelDoctrine\ORM\Console\ConvertConfigCommand();
+        $mitchellMigrator = new \LaravelDoctrine\ODM\Console\ConvertConfigCommand();
         $application      = new Application();
         $application->add($mitchellMigrator);
 

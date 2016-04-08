@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Console\Exporters;
+namespace LaravelDoctrine\ODM\Console\Exporters;
 
 use Doctrine\ORM\Mapping\ClassMetadataInfo;
 use Doctrine\ORM\Tools\Export\Driver\AbstractExporter;

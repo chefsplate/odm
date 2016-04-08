@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Contracts\Auth;
+namespace LaravelDoctrine\ODM\Contracts\Auth;
 
 use Illuminate\Contracts\Auth\Authenticatable as AuthenticatableContract;
 

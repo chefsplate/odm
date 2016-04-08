@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Configuration\MetaData;
+namespace LaravelDoctrine\ODM\Configuration\MetaData;
 
 use Doctrine\ORM\Mapping\Builder\ClassMetadataBuilder;
 use Doctrine\ORM\Mapping\ClassMetadataInfo;
@@ -8,7 +8,7 @@ use Illuminate\Contracts\Container\Container;
 use LaravelDoctrine\Fluent\Builders\Builder;
 use LaravelDoctrine\Fluent\Extensions\ExtensibleClassMetadataFactory;
 use LaravelDoctrine\Fluent\FluentDriver;
-use LaravelDoctrine\ORM\Configuration\LaravelNamingStrategy;
+use LaravelDoctrine\ODM\Configuration\LaravelNamingStrategy;
 
 class Fluent extends MetaData
 {

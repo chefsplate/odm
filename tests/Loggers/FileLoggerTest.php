@@ -2,7 +2,7 @@
 
 use Doctrine\ORM\Configuration;
 use Doctrine\ORM\EntityManagerInterface;
-use LaravelDoctrine\ORM\Loggers\FileLogger;
+use LaravelDoctrine\ODM\Loggers\FileLogger;
 use Mockery as m;
 use Psr\Log\LoggerInterface as Log;
 

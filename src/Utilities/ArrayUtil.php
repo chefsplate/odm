@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Utilities;
+namespace LaravelDoctrine\ODM\Utilities;
 
 class ArrayUtil
 {

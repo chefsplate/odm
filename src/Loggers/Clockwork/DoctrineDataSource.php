@@ -1,13 +1,13 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Loggers\Clockwork;
+namespace LaravelDoctrine\ODM\Loggers\Clockwork;
 
 use Clockwork\DataSource\DataSource;
 use Clockwork\Request\Request;
 use Doctrine\DBAL\Logging\SQLLogger;
-use LaravelDoctrine\ORM\Loggers\Formatters\FormatQueryKeywords;
-use LaravelDoctrine\ORM\Loggers\Formatters\QueryFormatter;
-use LaravelDoctrine\ORM\Loggers\Formatters\ReplaceQueryParams;
+use LaravelDoctrine\ODM\Loggers\Formatters\FormatQueryKeywords;
+use LaravelDoctrine\ODM\Loggers\Formatters\QueryFormatter;
+use LaravelDoctrine\ODM\Loggers\Formatters\ReplaceQueryParams;
 
 class DoctrineDataSource extends DataSource
 {

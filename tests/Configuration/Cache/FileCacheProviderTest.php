@@ -2,7 +2,7 @@
 
 use Doctrine\Common\Cache\FilesystemCache;
 use Illuminate\Contracts\Config\Repository;
-use LaravelDoctrine\ORM\Configuration\Cache\FileCacheProvider;
+use LaravelDoctrine\ODM\Configuration\Cache\FileCacheProvider;
 use Mockery as m;
 
 class FileCacheProviderTest extends AbstractCacheProviderTest

@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Facades;
+namespace LaravelDoctrine\ODM\Facades;
 
 use Doctrine\Common\Persistence\ManagerRegistry;
 use Illuminate\Support\Facades\Facade;

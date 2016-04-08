@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Loggers;
+namespace LaravelDoctrine\ODM\Loggers;
 
 use Doctrine\ORM\Configuration;
 use Doctrine\ORM\EntityManagerInterface;
-use LaravelDoctrine\ORM\Loggers\File\DoctrineFileLogger;
+use LaravelDoctrine\ODM\Loggers\File\DoctrineFileLogger;
 use Psr\Log\LoggerInterface as Log;
 
 class FileLogger implements Logger

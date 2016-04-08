@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Configuration\MetaData;
+namespace LaravelDoctrine\ODM\Configuration\MetaData;
 
 use Doctrine\Common\Persistence\Mapping\Driver\PHPDriver;
 

@@ -1,6 +1,6 @@
 <?php
 
-use LaravelDoctrine\ORM\Auth\Passwords\PasswordReminder;
+use LaravelDoctrine\ODM\Auth\Passwords\PasswordReminder;
 
 class PasswordReminderEntityTest extends PHPUnit_Framework_TestCase
 {

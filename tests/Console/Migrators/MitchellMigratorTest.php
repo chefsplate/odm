@@ -7,7 +7,7 @@ class MitchellMigratorTest extends MigratorBase
 {
     public function test_convert_mitchell_config()
     {
-        $mitchellMigrator = new \LaravelDoctrine\ORM\Console\ConvertConfigCommand();
+        $mitchellMigrator = new \LaravelDoctrine\ODM\Console\ConvertConfigCommand();
         $application      = new Application();
         $application->add($mitchellMigrator);
 

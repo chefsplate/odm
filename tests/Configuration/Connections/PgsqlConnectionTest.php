@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Contracts\Config\Repository;
-use LaravelDoctrine\ORM\Configuration\Connections\PgsqlConnection;
+use LaravelDoctrine\ODM\Configuration\Connections\PgsqlConnection;
 use Mockery as m;
 use Mockery\Mock;
 

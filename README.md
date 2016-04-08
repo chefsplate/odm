@@ -1,4 +1,4 @@
-# Laravel Doctrine ORM
+# Laravel Doctrine ODM
 
 <img src="https://cloud.githubusercontent.com/assets/7728097/9831648/1827b704-5960-11e5-982d-98c8fc8dcacd.jpg"/>
 
@@ -9,7 +9,7 @@
 [![Packagist](https://img.shields.io/packagist/dm/laravel-doctrine/orm.svg?style=flat-square)](https://packagist.org/packages/laravel-doctrine/orm)
 [![Packagist](https://img.shields.io/packagist/dt/laravel-doctrine/orm.svg?style=flat-square)](https://packagist.org/packages/laravel-doctrine/orm)
 
-*A drop-in Doctrine ORM 2 implementation for Laravel 5+*
+*A drop-in Doctrine ODM 2 implementation for Laravel 5+*
 
 ```php
 $scientist = new Scientist(
@@ -52,19 +52,19 @@ EntityManager::flush();
 Require this package  
 
 ```php
-composer require "laravel-doctrine/orm:1.0.*"
+composer require "laravel-doctrine/odm:1.0.*"
 ```
 
 After adding the package, add the ServiceProvider to the providers array in `config/app.php`
 
 ```php
-LaravelDoctrine\ORM\DoctrineServiceProvider::class,
+LaravelDoctrine\ODM\DoctrineServiceProvider::class,
 ```
 
 Optionally you can register the EntityManager facade:
 
 ```php
-'EntityManager' => LaravelDoctrine\ORM\Facades\EntityManager::class
+'EntityManager' => LaravelDoctrine\ODM\Facades\EntityManager::class
 ```
 
 To publish the config use:

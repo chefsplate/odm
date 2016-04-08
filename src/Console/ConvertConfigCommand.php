@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Console;
+namespace LaravelDoctrine\ODM\Console;
 
 use Illuminate\Container\Container as Container;
 use Illuminate\Events\Dispatcher;
@@ -26,7 +26,7 @@ class ConvertConfigCommand extends SymfonyCommand
     /**
      * @var string
      */
-    protected $description = 'Convert the configuration file for another laravel-doctrine implementation into a valid configuration for LaravelDoctrine\ORM.';
+    protected $description = 'Convert the configuration file for another laravel-doctrine implementation into a valid configuration for LaravelDoctrine\ODM.';
 
     /**
      * Configure the command
@@ -35,7 +35,7 @@ class ConvertConfigCommand extends SymfonyCommand
     {
         $this->setName('doctrine:config:convert')
             ->setAliases(['doctrine:config:convert'])
-            ->setDescription('Convert the configuration file for another laravel-doctrine implementation into a valid configuration for LaravelDoctrine\ORM')
+            ->setDescription('Convert the configuration file for another laravel-doctrine implementation into a valid configuration for LaravelDoctrine\ODM')
             ->setDefinition([
                 new InputArgument('author', InputArgument::REQUIRED,
                     'The name of the author of the repository being migrated from. Options are "atrauzzi" and "mitchellvanw"'),

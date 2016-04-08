@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Configuration;
+namespace LaravelDoctrine\ODM\Configuration;
 
 use Illuminate\Contracts\Container\Container;
-use LaravelDoctrine\ORM\Exceptions\DriverNotFound;
+use LaravelDoctrine\ODM\Exceptions\DriverNotFound;
 
 abstract class Manager
 {

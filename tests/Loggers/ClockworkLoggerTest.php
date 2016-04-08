@@ -5,7 +5,7 @@ use Doctrine\DBAL\Connection;
 use Doctrine\DBAL\Driver;
 use Doctrine\ORM\Configuration;
 use Doctrine\ORM\EntityManagerInterface;
-use LaravelDoctrine\ORM\Loggers\ClockworkLogger;
+use LaravelDoctrine\ODM\Loggers\ClockworkLogger;
 use Mockery as m;
 
 class ClockworkLoggerTest extends PHPUnit_Framework_TestCase

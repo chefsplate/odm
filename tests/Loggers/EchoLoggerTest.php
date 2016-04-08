@@ -2,7 +2,7 @@
 
 use Doctrine\ORM\Configuration;
 use Doctrine\ORM\EntityManagerInterface;
-use LaravelDoctrine\ORM\Loggers\EchoLogger;
+use LaravelDoctrine\ODM\Loggers\EchoLogger;
 use Mockery as m;
 
 class EchoLoggerTest extends PHPUnit_Framework_TestCase

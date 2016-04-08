@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Contracts\Config\Repository;
-use LaravelDoctrine\ORM\Configuration\Connections\SqlsrvConnection;
+use LaravelDoctrine\ODM\Configuration\Connections\SqlsrvConnection;
 use Mockery as m;
 use Mockery\Mock;
 

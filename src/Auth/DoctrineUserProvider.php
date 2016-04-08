@@ -1,13 +1,13 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Auth;
+namespace LaravelDoctrine\ODM\Auth;
 
 use Doctrine\ORM\EntityManagerInterface;
 use Doctrine\ORM\EntityRepository;
 use Illuminate\Contracts\Auth\Authenticatable as IlluminateAuthenticatable;
 use Illuminate\Contracts\Auth\UserProvider;
 use Illuminate\Contracts\Hashing\Hasher;
-use LaravelDoctrine\ORM\Contracts\Auth\Authenticatable as AuthenticatableContract;
+use LaravelDoctrine\ODM\Contracts\Auth\Authenticatable as AuthenticatableContract;
 use ReflectionClass;
 
 class DoctrineUserProvider implements UserProvider

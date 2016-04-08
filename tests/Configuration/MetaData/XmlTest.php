@@ -2,7 +2,7 @@
 
 use Doctrine\Common\Persistence\Mapping\Driver\MappingDriver;
 use Doctrine\ORM\Mapping\Driver\XmlDriver;
-use LaravelDoctrine\ORM\Configuration\MetaData\Xml;
+use LaravelDoctrine\ODM\Configuration\MetaData\Xml;
 use Mockery as m;
 
 class XmlTest extends PHPUnit_Framework_TestCase

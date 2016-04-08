@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Validation;
+namespace LaravelDoctrine\ODM\Validation;
 
 use Doctrine\Common\Persistence\ManagerRegistry;
 use Doctrine\ORM\QueryBuilder;

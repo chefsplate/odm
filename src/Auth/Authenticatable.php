@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Auth;
+namespace LaravelDoctrine\ODM\Auth;
 
 trait Authenticatable
 {

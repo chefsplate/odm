@@ -3,9 +3,9 @@
 use Doctrine\ORM\EntityManagerInterface;
 use Doctrine\ORM\EntityRepository;
 use Illuminate\Contracts\Hashing\Hasher;
-use LaravelDoctrine\ORM\Auth\Authenticatable;
-use LaravelDoctrine\ORM\Auth\DoctrineUserProvider;
-use LaravelDoctrine\ORM\Contracts\Auth\Authenticatable as AuthenticatableContract;
+use LaravelDoctrine\ODM\Auth\Authenticatable;
+use LaravelDoctrine\ODM\Auth\DoctrineUserProvider;
+use LaravelDoctrine\ODM\Contracts\Auth\Authenticatable as AuthenticatableContract;
 use Mockery as m;
 use Mockery\Mock;
 

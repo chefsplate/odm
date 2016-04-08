@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Serializers;
+namespace LaravelDoctrine\ODM\Serializers;
 
 use Symfony\Component\Serializer\Encoder\JsonEncoder;
 use Symfony\Component\Serializer\Normalizer\GetSetMethodNormalizer;

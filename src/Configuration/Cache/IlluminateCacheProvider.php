@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Configuration\Cache;
+namespace LaravelDoctrine\ODM\Configuration\Cache;
 
 use Illuminate\Contracts\Cache\Factory;
-use LaravelDoctrine\ORM\Configuration\Driver;
+use LaravelDoctrine\ODM\Configuration\Driver;
 
 abstract class IlluminateCacheProvider implements Driver
 {

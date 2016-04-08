@@ -1,6 +1,6 @@
 <?php
 
-use LaravelDoctrine\ORM\Loggers\Formatters\ReplaceQueryParams;
+use LaravelDoctrine\ODM\Loggers\Formatters\ReplaceQueryParams;
 use Mockery as m;
 
 class ReplaceQueryParamsTest extends PHPUnit_Framework_TestCase

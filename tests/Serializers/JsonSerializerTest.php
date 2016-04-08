@@ -1,7 +1,7 @@
 <?php
 
-use LaravelDoctrine\ORM\Serializers\Jsonable;
-use LaravelDoctrine\ORM\Serializers\JsonSerializer;
+use LaravelDoctrine\ODM\Serializers\Jsonable;
+use LaravelDoctrine\ODM\Serializers\JsonSerializer;
 
 class JsonSerializerTest extends PHPUnit_Framework_TestCase
 {

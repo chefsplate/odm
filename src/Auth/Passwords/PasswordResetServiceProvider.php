@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Auth\Passwords;
+namespace LaravelDoctrine\ODM\Auth\Passwords;
 
 use Doctrine\Common\Persistence\ManagerRegistry;
 use Illuminate\Auth\Passwords\PasswordBroker;
 use Illuminate\Support\ServiceProvider;
-use LaravelDoctrine\ORM\DoctrineManager;
+use LaravelDoctrine\ODM\DoctrineManager;
 
 class PasswordResetServiceProvider extends ServiceProvider
 {

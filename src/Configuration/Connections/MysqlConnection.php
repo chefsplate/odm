@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Configuration\Connections;
+namespace LaravelDoctrine\ODM\Configuration\Connections;
 
 class MysqlConnection extends Connection
 {

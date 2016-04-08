@@ -2,8 +2,8 @@
 
 use Illuminate\Contracts\Cache\Factory;
 use Illuminate\Contracts\Cache\Repository;
-use LaravelDoctrine\ORM\Configuration\Cache\ApcCacheProvider;
-use LaravelDoctrine\ORM\Configuration\Cache\IlluminateCacheAdapter;
+use LaravelDoctrine\ODM\Configuration\Cache\ApcCacheProvider;
+use LaravelDoctrine\ODM\Configuration\Cache\IlluminateCacheAdapter;
 use Mockery as m;
 
 class ApcCacheProviderTest extends AbstractCacheProviderTest

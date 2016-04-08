@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelDoctrine\ORM\Loggers;
+namespace LaravelDoctrine\ODM\Loggers;
 
 use Barryvdh\Debugbar\LaravelDebugbar;
 use Doctrine\DBAL\Logging\DebugStack;
 use Doctrine\ORM\Configuration;
 use Doctrine\ORM\EntityManagerInterface;
-use LaravelDoctrine\ORM\Loggers\Debugbar\DoctrineCollector;
+use LaravelDoctrine\ODM\Loggers\Debugbar\DoctrineCollector;
 
 class LaravelDebugbarLogger implements Logger
 {

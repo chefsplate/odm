@@ -16,12 +16,12 @@ use Doctrine\ORM\Repository\RepositoryFactory;
 use Doctrine\ORM\Tools\Setup;
 use Illuminate\Contracts\Config\Repository;
 use Illuminate\Contracts\Container\Container;
-use LaravelDoctrine\ORM\Configuration\Cache\CacheManager;
-use LaravelDoctrine\ORM\Configuration\Connections\ConnectionManager;
-use LaravelDoctrine\ORM\Configuration\LaravelNamingStrategy;
-use LaravelDoctrine\ORM\Configuration\MetaData\MetaDataManager;
-use LaravelDoctrine\ORM\EntityManagerFactory;
-use LaravelDoctrine\ORM\Loggers\Logger;
+use LaravelDoctrine\ODM\Configuration\Cache\CacheManager;
+use LaravelDoctrine\ODM\Configuration\Connections\ConnectionManager;
+use LaravelDoctrine\ODM\Configuration\LaravelNamingStrategy;
+use LaravelDoctrine\ODM\Configuration\MetaData\MetaDataManager;
+use LaravelDoctrine\ODM\EntityManagerFactory;
+use LaravelDoctrine\ODM\Loggers\Logger;
 use Mockery as m;
 use Mockery\Mock;
 
