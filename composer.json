@@ -6,6 +6,7 @@
     "doctrine",
     "laravel",
     "orm",
+    "odm",
     "data mapper",
     "database"
   ],
@@ -30,7 +31,8 @@
     "illuminate/support": "5.1.*",
     "illuminate/validation": "5.1.*",
     "illuminate/view": "5.1.*",
-    "symfony/serializer": "^2.7"
+    "symfony/serializer": "^2.7",
+    "doctrine/mongodb-odm": "~1.0"
   },
   "require-dev": {
     "phpunit/phpunit": "~4.0",
