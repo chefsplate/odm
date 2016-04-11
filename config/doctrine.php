@@ -24,7 +24,7 @@ return [
         'default' => [
             'dev'        => env('APP_DEBUG'),
             'meta'       => env('DOCTRINE_METADATA', 'annotations'),
-            'connection' => env('DB_CONNECTION', 'mysql'),
+            'connection' => env('DB_CONNECTION', 'mongodb'),
             'namespaces' => [
                 'App'
             ],

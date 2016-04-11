@@ -2,7 +2,7 @@
 
 namespace LaravelDoctrine\ODM\Configuration\Connections;
 
-class MysqlConnection extends Connection
+class MongodbConnection extends Connection
 {
     /**
      * @param array $settings
@@ -12,14 +12,13 @@ class MysqlConnection extends Connection
     public function resolve(array $settings = [])
     {
         return [
-            'driver'      => 'pdo_mysql',
+            'driver'      => 'mongodb',
             'host'        => array_get($settings, 'host'),
             'dbname'      => array_get($settings, 'database'),
             'user'        => array_get($settings, 'username'),
             'password'    => array_get($settings, 'password'),
             'charset'     => array_get($settings, 'charset'),
             'port'        => array_get($settings, 'port'),
-            'unix_socket' => array_get($settings, 'unix_socket'),
             'prefix'      => array_get($settings, 'prefix'),
         ];
     }

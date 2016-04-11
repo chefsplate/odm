@@ -11,7 +11,7 @@ return [
         |
         | Available meta drivers: annotations|yaml|xml|config|static_php|php
         |
-        | Available connections: mysql|oracle|pgsql|sqlite|sqlsrv
+        | Available connections: mongodb
         | (Connections can be configured in the database config)
         |
         | --> Warning: Proxy auto generation should only be enabled in dev!

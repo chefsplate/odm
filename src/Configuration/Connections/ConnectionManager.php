@@ -12,7 +12,7 @@ class ConnectionManager extends Manager
      */
     public function getDefaultDriver()
     {
-        return 'mysql';
+        return 'mongodb';
     }
 
     /**
